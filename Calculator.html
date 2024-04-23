@@ -1,0 +1,70 @@
+<html>
+<body>
+<style>
+body {
+  background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/seamless-numbers-background-in-retro-vintage-style_zytf0Kud_SB_PM.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+   text-align: center;
+font: 50px Arial, sans-serif;
+
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+    <script type="text/javascript">
+function add(a,b)
+{
+var c;
+c=a+b;
+document.writeln("Sum ="+c);
+}
+function sub(a,b)
+{
+var d;
+d=a-b;
+document.writeln(d);
+}
+function Multiply(a,b)
+{
+var e;
+e=a*b;
+document.writeln(e);
+}
+function division(a,b)
+{
+var f;
+f=a/b;
+document.writeln(f);
+}
+function Remainder(a,b)
+{
+var g;
+g=a%b;
+document.writeln(g);
+}
+a=parseInt(prompt("Enter First number:"));
+b=parseInt(prompt("Enter second number:"));
+</script>
+<form>
+
+<input type="button" class="button" value="Add" onclick="add(a,b)"/><br><br>
+<input type="button" class="button" value="subtract" onclick="sub(a,b)"/><br><br>
+<input type="button" class="button" value="Multiply" onclick="Multiplication(a,b)"/><br><br>
+<input type="button" class="button" value="Division" onclick="division(a,b)"/><br><br>
+<input type="button" class="button" value="Remainder"   onclick="Remainder(a,b)"/><br><br>
+
+</form>
+</body>
+</html>
